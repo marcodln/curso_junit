@@ -23,7 +23,7 @@ public class TestEjemplos {
 		mockedList.add("one");
 		mockedList.clear();
 	
-		///verify	
+		//verify	
 		mockedList.add("one");
 		Mockito.verify(mockedList).clear();
 	
